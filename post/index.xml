@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on YY @@ YY</title>
+    <link>https://yydavid.github.io/post/</link>
+    <description>Recent content in Posts on YY @@ YY</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Jun 2019 13:17:16 +0800</lastBuildDate>
+    
+	<atom:link href="https://yydavid.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://yydavid.github.io/post/hugo/</link>
+      <pubDate>Sun, 30 Jun 2019 13:17:16 +0800</pubDate>
+      
+      <guid>https://yydavid.github.io/post/hugo/</guid>
+      <description>ubuntu18.04 安装hugo 安装hugo  sudo apt install hugo
+ 生成site目录  hugo new site blog
+ 安装主题  git clone https://github.com/budparr/ .git themes/ananke
+ 装饰站点  将主题示例内的static、content文件夹和config.toml文件替换到站点，略作修改即可  局域网内预览博客  hugo server -t ananke --buildDrafts --bind 192.168.2.200 --baseURL http://192.168.2.200 hugo server 命令可以使用 hugo 内置服务器调试预览博客 --theme 选项可以指定主题 --buildDrafts 包括标记为草稿（draft）的内容
+ 新建文章  hugo new hugo.md
+ 部署到 GitHub  在githua创建仓库 yydavid.github.io //yydavid为github昵称小写
+   hugo --theme=ananke --baseUrl=https://yydavid.github.io --buildDrafts //生成public目录</description>
+    </item>
+    
+  </channel>
+</rss>
